@@ -1,0 +1,17 @@
+{
+    "couchbase": {
+        "server": "couchbase://couchbase",
+        "gameInfo": "gameInfo",
+        "user": "mfdms",
+        "password" : "password"
+    },
+    "syncgateway": {
+        "server": "syncgateway:4985",
+        "user" : "mfdsg",
+        "password": "password"
+    },
+    "listenPort" : 3000,
+    "active": true,
+    "secure": false,
+    "server_name": "D.Brown Demo"
+}

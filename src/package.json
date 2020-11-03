@@ -1,0 +1,27 @@
+{
+  "name": "CBTreasureHunt",
+  "version": "0.0.1",
+  "description": "Microservice to register new users",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node --nolazy server.js"
+  },
+  "keywords": [
+    "Couchbase",
+    "Mobile",
+    "CBLite"
+  ],
+  "author": {
+    "name": "David Brown",
+    "email": "david.brown@couchbase.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "couchbase": "^3.0.6",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "http-errors": "^1.8.0",
+    "axios": "^0.20.0"
+  }
+}
